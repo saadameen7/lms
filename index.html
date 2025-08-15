@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>&nbsp;</title>
+
+	<!-- Bootstrap Core CSS -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	<link href="css/jquery-ui.min.css" rel="stylesheet">
+    <link href="addons/jsPanel/jquery.jspanel.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/fonts.css" rel="stylesheet">
+	<link href="css/player.css" rel="stylesheet">
+	<link href="css/brand.css" rel="stylesheet">
+
+</head>
+<body>
+
+	<!-- Legacy browser message -->
+	<div id="legacy-browser" style="display:none">
+		<span>Unsupported browser</span>
+	</div>
+
+	<!-- Fixed score counter -->
+	<div id="score-div" style="display:none">
+		<span></span>
+		<img src="img/score-counter.png">
+	</div>
+
+
+	<div class="wbt-menu-container">
+		<div class="wbt-menu-background"></div>
+		<div class="wbt-menu-content">
+
+			<div id="hi1" class="wbt-menu-content-shape"><ul class="special list-group"></ul></div>
+			<div id="hi2"></div>
+			<div id="hi3"></div>
+			<div id="hi4"></div>
+
+		</div>
+	</div>
+
+	<!-- Fixed Top Navigation -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand"></a>
+			</div>
+			<div id="wbt-title"><h3></h3></div>
+
+			<div style="visibility:hidden;" id="navbar" class="navbar-collapse collapse">
+				<div class="progress pull-right" style="margin-top:15px; width:240px">
+					<div id="navbar-progress" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;"></div>
+				</div>
+				<p class="nav navbar-text pull-right"></p>
+			</div>
+
+			<div style="visibility:hidden;position:fixed;top:15px;right:15px" id="exit-excursion">
+				<button type="button" class="btn btn-primary btn-lg"></button>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Wrapper -->
+	<div class="container-fluid" id="wrapper">
+
+		<!-- Breadcrumb with menu -->
+		<div class="breadcrumb-div">
+			<!-- Menu Navigation -->
+
+			<div class="wbt-menu">
+				<img src="content/images/btn-menu.gif">
+				<span>MENU</span>
+			</div>
+
+			<ol id="breadcrumb" class="breadcrumb">
+				<span id="span-loading"></span>
+			</ol>
+
+			<div class="search-field input-group" style="display:none">
+				<input id="search_input" type="text" class="form-control" placeholder="Search for...">
+				<span class="input-group-btn">
+					<button id="search_btn" class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+				</span>
+			</div><!-- /input-group -->
+
+		</div>
+
+		<div id="content">
+			<iframe id="playerFrame" class="center-block" src="" width="994" height="500" frameborder="0" scrolling="no" allow="autoplay"></iframe>
+		</div>
+
+		<div id="spokentext">
+			<!-- JS -->
+		</div>
+
+		<div id="loadingAnimation"><img src="img/loading.gif"></div>
+
+	</div>
+	<!-- /#Wrapper -->
+
+	<div class="footer">
+		<div style="padding-top:4px;position:absolute;">
+			<span id="span-copyright"></span>
+		</div>
+
+		<!--<div id="btn-debug" style="position:absolute;top:24px;left:18px;width:12px;height:12px;background-color:red;opacity:0"></div>-->
+
+		<div id="player-footer-buttons" style="display:none">
+			<!--<button id="btn-debug" class="btn btn-warning btn-sm" data-toggle="tooltip" data-placement="top" title="Reset SCORM">Reset SCORM</button>-->
+			<button id="btn-mute" class="btn btn-default btn-sm" data-toggle="tooltip" data-placement="top" title=""><span class="glyphicon glyphicon-volume-up" aria-hidden="true"></span></button>
+			<button id="btn-speakertext" class="btn btn-default btn-sm" data-toggle="tooltip" data-placement="top" title=""><span class="glyphicon glyphicon-comment" aria-hidden="true"></span></button>
+			<button id="btn-print" class="btn btn-default btn-sm" data-toggle="tooltip" data-placement="top" title=""><span class="glyphicon glyphicon-print" aria-hidden="true"></span></button>
+			<button id="btn-glossary" class="btn btn-default btn-sm" data-toggle="tooltip" data-placement="top" title=""><span class="glyphicon glyphicon-book" aria-hidden="true"></span></button>
+			<button id="btn-expert" class="btn btn-default btn-sm" data-toggle="tooltip" data-placement="top" title=""><span class="glyphicon glyphicon-user" aria-hidden="true"></span></button>
+			<button id="btn-info" class="btn btn-default btn-sm smoothing" data-toggle="tooltip" data-placement="top" title=""><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span></button>
+			<button id="btn-help" class="btn btn-default btn-sm smoothing" data-toggle="tooltip" data-placement="top" title=""><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></button>
+
+			<button id="btn-reload" type="button" style="margin-left:15px" class="btn btn-default btn-sm smoothing" data-toggle="tooltip" data-placement="top" title="">
+				<span class="glyphicon glyphicon-repeat" aria-hidden="true"></span>
+			</button>
+			<button id="btn-play" type="button" class="btn btn-default btn-sm" data-toggle="tooltip" data-placement="top" title="">
+				<span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+			</button>
+			<button id="btn-prev" type="button" class="btn btn-default btn-sm" data-toggle="tooltip" data-placement="top" title="" disabled>
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span id="span-previous"></span>
+			</button>
+
+			<div id="page-nr"></div>
+
+			<button id="btn-next" type="button" class="btn btn-default btn-sm" data-toggle="tooltip" data-placement="top" title="">
+				<span id="span-next"></span> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			</button>
+
+		</div>
+
+	</div>
+
+	<!-- JS libraries -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/jquery.ui.touch-punch.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="addons/jsPanel/jquery.jspanel-compiled.js"></script>
+
+	<!-- Bootbox for Promts -->
+	<script type="text/javascript" src="js/bootbox.min.js"></script>
+
+	<!-- Preload JS -->
+	<script src="js/preloadjs.min.js"></script>
+
+	<!-- Sound JS -->
+	<script src="js/soundjs.min.js"></script>
+
+	<!-- SCORM driver -->
+	<script src="js/scorm.js"></script>
+
+	<!-- Custom JS -->
+	<script src="js/player.js"></script>
+
+</body>
+</html>
