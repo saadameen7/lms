@@ -1,0 +1,83 @@
+{
+    "settings": {
+        "completionCondition": "progress",
+        "designTemplate": "d",
+        "defaultLanguage": "de",
+        "languages": [
+            "de"
+        ],
+        "certificationLink": "",
+        "expertEmail": "",
+        "passThreshold": 100,
+        "detectLanguage": false,
+        "showLanguageSelection": false,
+        "scormEnabled": true,
+        "scormVersion": "1.2",
+        "showDisclaimer": false,
+        "showIntro": true,
+        "showScore": false,
+        "allowControlsAfterWatching": false,
+        "enableLogging": true,
+        "disableRightClick": true,
+        "forceSequencing": true,
+        "forceTaskSequencing": true,
+        "showPageNrInMenu": true,
+        "shortenBreadcrumb": true,
+        "showSearchField": true,
+        "showPageNrInBreadcrumb": false,
+        "showWBTtitleInBreadcrumb": false,
+        "playerDimensions": {
+            "contentWidthWide": 994,
+            "contentWidthStandard": 650,
+            "contentHeight": 500
+        },
+        "speakertext": {
+            "fontSize": 14
+        },
+        "activeButtons": {
+            "btnMute": true,
+            "btnExpert": false,
+            "btnSpeakertext": true,
+            "btnPrint": true,
+            "btnGlossary": true,
+            "btnInfo": true,
+            "btnHelp": true
+        }
+    },
+    "designTemplates": {
+        "default": {
+            "completionBar": {
+                "bgColor": "#DEE4E8",
+                "topColor": "#666666"
+            }
+        },
+        "sh": {
+            "completionBar": {
+                "bgColor": "#ffb900",
+                "topColor": "#eb780a"
+            }
+        },
+        "sag": {
+            "completionBar": {
+                "bgColor": "#55A0B9",
+                "topColor": "#006487"
+            }
+        },
+        "d": {
+            "completionBar": {
+                "bgColor": "#DEE4E8",
+                "topColor": "#666666"
+            }
+        }
+    },
+    "metadata": {
+        "companyTitle": "DEHN",
+        "companyDepartment": "",
+        "supervisor": "",
+        "storyboardAuthor": "",
+        "contentOwner": "",
+        "publishDate": "Dezember 2019",
+        "copyright": "© DEHN SE",
+        "customImprint": "<a target=\"_blank\" href=\"https://www.dehn.de/de/impressum\">https://www.dehn.de/de/impressum</a>"
+    }
+}

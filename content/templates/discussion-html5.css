@@ -1,0 +1,62 @@
+/* Headline */
+
+#headline {
+	min-height:100px;
+	border-radius:10px;
+	background-color:#f5f5f5;
+	font-family:Arial,sans-serif;
+	color:#333333;
+	font-size:16px;
+	margin-top:5px;
+    display: table; 
+    width: 100%;
+}
+
+#headline p {
+	padding:10px 20px 10px 120px;
+	display: table-cell; 
+	height: 100px; 
+	vertical-align: middle;
+	text-align: left;
+}
+
+#headline img {
+	position:absolute;
+	top:14px;
+	left:26px;
+}
+
+/* Content */
+
+.discussionEntries {
+	margin:22px 0 0 20px;
+}
+
+.discussionEntry {
+	font-size:16px;
+	padding-bottom:10px;
+	padding-left:4px;
+	cursor:pointer;
+}
+
+/* Colors */
+
+.green {
+	color:#31951a;
+	font-weight:bold;
+}
+
+.red {
+	color:#990000;	
+	font-weight:bold;
+}
+
+/* Divider */
+
+.divider {
+	position:absolute;
+	bottom:48px;
+	width:100%;
+	padding:0 29px 0 16px;
+}
+

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title></title>
+
+	<link href="../../css/bootstrap.css" rel="stylesheet">
+	<link href="../../css/interactive.css" rel="stylesheet">
+	<link href="../../content/templates/choice-html5.css" rel="stylesheet">
+	
+</head>
+
+<body>
+	
+	<div id="content" class="container-fluid add-height" style="display:none">
+		<div id="headline"></div>
+
+		<!-- Radio Buttons -->
+		<div class="radioButtons" style="display:none"></div>
+		
+		<!-- Checkboxes -->
+		<div class="checkboxButtons" style="display:none"></div>
+		
+		<!-- Divider -->
+		<div class="divider">
+			<hr />
+		</div>
+		
+		<!-- Evaluation Process Buttons -->
+		
+		<div class="evaluation">
+			<button id="btnEvaluate" type="button" class="btn btn-primary disabled"></button>
+			<button id="btnMySolution" type="button" class="btn btn-primary" style="display:none"></button>
+			<button id="btnSolution" type="button" class="btn btn-primary" style="display:none"></button>
+		</div>
+		
+	</div>
+	
+	<!-- JS libraries -->
+	<script src="../../js/jquery.min.js"></script>
+	<script src="../../js/bootstrap.min.js"></script>
+	<!-- Preload JS -->
+	<script src="../../js/preloadjs.min.js"></script>
+	<script src="../../content/preload.js"></script>
+	<!-- Interaction JS -->
+	<script src="../../content/templates/interactions.js"></script>
+	<!-- Choice JS -->
+	<script src="../../content/templates/choice-html5.js"></script>
+		
+	<script>
+		
+		togglePlayPause(false);
+		
+		if(window.parent.getCurrentPage().settings.speaker) {
+			loadMedia({
+				images: [
+					{ id:"task-mouse", path:"../images/"+window.parent.interactionIcon }
+				],
+				audio: [
+					{ id:"speaker", path:"speaker.mp3" }
+				],
+				settings: {
+					speakerAudioAutostart:false,
+					speakertext:false
+				},
+				action: function() {
+					initChoicePage();
+				}
+			});
+		} else {
+			loadMedia({
+				images: [
+					{ id:"task-mouse", path:"../images/"+window.parent.interactionIcon }
+				],
+				settings: {
+					speakertext:false
+				},
+				action: function() {
+					initChoicePage();
+				}
+			});
+		}
+		
+		
+	</script>
+		
+	
+</body>
+</html>

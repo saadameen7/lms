@@ -1,0 +1,483 @@
+{
+	"language": {
+		"copyright": {
+			"en": "Copyright",
+			"de": "Urheberrecht",
+			"es": "Derechos de autor"
+		},
+		"wbt": {
+			"en": "Web-based Training",
+			"de": "Webbasiertes Training",
+			"es": "WBT"
+
+		},
+		"loading": {
+			"en": "Loading... Please wait",
+			"de": "Lädt... Bitte warten",
+			"es": "Cargando... Por favor espere"
+		},
+		"progress": {
+			"en": "Completion:",
+			"de": "Fortschritt:",
+			"es": "Progreso:"
+		},
+		"searchResultsTitle": {
+			"en": "Search results for",
+			"de": "Suchergebnisse für",
+			"es": "Resultados de búsqueda para"
+		},
+		"searchResultsGlossaryTitle": {
+			"en": "Glossary items:",
+			"de": "Glossarbegriffe:",
+			"es": "Artículos del glosario:"
+		},
+		"searchResultsPageTitle": {
+			"en": "Pages in the web-based training:",
+			"de": "Seiten im WBT:",
+			"es": "Páginas WBT:"
+		},
+		"searchPlaceholder": {
+			"en": "Search in WBT...",
+			"de": "Suche nach...",
+			"es": "Buscar en WBT..."
+		},
+		"searchNoResults": {
+			"en": "No search results found!",
+			"de": "Die Suche landete keine Treffer.",
+			"es": "¡No se encontraron resultados de búsqueda!"
+		},
+		"mobilewarning": {
+			"en": "It is not recommended to view this web-based training on a smartphone.",
+			"de": "Dieses WBT ist nicht für Smartphones geeignet.",
+			"es": "No se recomienda ver esta capacitación basada en la web en un teléfono inteligente."
+		},
+		"notdone": {
+			"title": {
+				"en": "Please note",
+				"de": "Hinweis",
+				"es": "Tenga en cuenta"
+			},
+			"content": {
+				"en": "The page you try to reach has not been visited yet. In order to access this page, you must have worked through the WBT to this point.",
+				"de": "Die Seite die Sie öffnen möchten wurde noch nicht besucht. Damit Sie diese Seite über das Menü erreichen können, müssen Sie das WBT bis zu diesem Punkt durchgearbeitet haben.",
+				"es": "La página que intentas alcanzar no ha sido visitada aún. Para acceder a esta página, debe haber trabajado en WBT hasta este punto."
+			}
+		},
+		"lastSession": {
+			"title": {
+				"en": "Restore last session",
+				"de": "Letzte Sitzung wiederherstellen",
+				"es": "Restaurar la última sesión"
+			},
+			"content": {
+				"en": "Would you like to continue where you have left in the last session?",
+				"de": "Möchten Sie dort weitermachen, wo Sie das letzte mal aufgehört haben?",
+				"es": "¿Te gustaría continuar donde te queda en la última sesión?"
+			}
+		},
+		"resumeExcursion": {
+			"title": {
+				"en": "Resume",
+				"de": "Fortsetzen",
+				"es": "Continuar"
+			},
+			"content": {
+				"en": "Would you like to jump to the position where you have left this page?",
+				"de": "Möchten Sie zur Position springen, an der Sie diese Seite verlassen haben?",
+				"es": "¿Le gustaría saltar a la posición en la que ha salido de esta página?"
+			}
+		},
+		"browserCheck": {
+			"title": {
+				"en": "Please note",
+				"de": "Achtung",
+				"es": "Tenga en cuenta"
+			},
+			"content": {
+				"en": "This web-based training requires at least Internet Explorer version 11.<br><br>Please update your Internet Explorer or enter the link to the training module in one of the browsers listed below:<ul><li>Google Chrome</li><li>Mozilla Firefox</li><li>Apple Safari</li></ul>",
+				"de": "Die technische Voraussetzung für das Training ist der Internet Explorer Version 11 oder höher.<br><br>Bitte aktualisieren Sie Ihren Internet Explorer oder geben Sie den Link zum Training in einen der nachfolgenden Browser ein:<ul><li>Google Chrome</li><li>Mozilla Firefox</li><li>Apple Safari</li></ul>",
+				"es": "Esta capacitación basada en la web requiere al menos Internet Explorer versión 11.<br><br>Actualice su Internet Explorer o ingrese el enlace al módulo de entrenamiento en uno de los siguientes navegadores:<ul><li>Google Chrome</li><li>Mozilla Firefox</li><li>Apple Safari</li></ul>"
+			}
+		},
+		"menu": {
+			"en": "MENU",
+			"de": "MENÜ",
+			"es": "MENÚ"
+		},
+		"intro": {
+			"en": "Intro",
+			"de": "Einleitung",
+			"es": "Introducción"
+		},
+		"introduction": {
+			"en": "Introduction",
+			"de": "Einführung",
+			"es": "Iniciación"
+		},
+		"missingString": {
+			"en": "NO TEXT",
+			"de": "KEIN TEXT",
+			"es": "SIN TEXTO"
+		},
+		"disclaimer": {
+			"title": {
+				"en": "Disclaimer",
+				"de": "Haftungsausschluss",
+				"es": "Renuncia"
+			},
+			"content": {
+				"en": "<a target=\"_blank\" href=\"https://www.dehn.de/de/impressum\">https://www.dehn.de/de/impressum</a>",
+				"de": "<a target=\"_blank\" href=\"https://www.dehn.de/de/impressum\">https://www.dehn.de/de/impressum</a>",
+				"es": "<a target=\"_blank\" href=\"https://www.dehn.de/de/impressum\">https://www.dehn.de/de/impressum</a>"
+			},
+			"btnAccept": {
+				"en": "Accept",
+				"de": "Akzeptieren",
+				"es": "Aceptar"
+			},
+			"btnCancel": {
+				"en": "Cancel",
+				"de": "Abbrechen",
+				"es": "Cerrar"
+			}
+		},
+		"languageSelection": {
+			"title": {
+				"en": "Select your language",
+				"de": "Sprache auswählen",
+				"es": "Elige tu idioma"
+			},
+			"en": {
+				"en": "English",
+				"de": "English",
+				"es": "English"
+			},
+			"de": {
+				"en": "Deutsch",
+				"de": "Deutsch",
+				"es": "Deutsch"
+			},
+			"es": {
+				"en": "Español",
+				"de": "Español",
+				"es": "Español"
+			}
+		},
+		"buttonTooltips": {
+			"btnSound": {
+				"en": "Turn volume on/off",
+				"de": "Audio ein oder ausschalten",
+				"es": "Activar/desactivar el volumen"
+			},
+			"btnSpeaker": {
+				"en": "Show/hide spoken text",
+				"de": "Gesprochenen Text ein oder ausblenden",
+				"es": "Mostrar/ocultar el texto hablado"
+			},
+			"btnPrint": {
+				"en": "Print page",
+				"de": "Seite drucken",
+				"es": "Imprimir página"
+			},
+			"btnGlossary": {
+				"en": "Open glossary",
+				"de": "Glossar öffnen",
+				"es": "Glosario abierto"
+			},
+			"btnImprint": {
+				"en": "Open imprint",
+				"de": "Impressum öffnen",
+				"es": "Impresión abierta"
+			},
+			"btnHelp": {
+				"en": "Open help",
+				"de": "Hilfe öffnen",
+				"es": "Ayuda abierta"
+			},
+			"btnReload": {
+				"en": "Repeat the current slide",
+				"de": "Seite erneut abspielen",
+				"es": "Repita la diapositiva actual"
+			},
+			"btnPlaypause": {
+				"en": "Play or pause the current animation",
+				"de": "Animation anhalten oder wieder abspielen",
+				"es": "Reproducir o pausar la animación actual"
+			},
+			"btnPrevious": {
+				"en": "Go back to the previous slide",
+				"de": "Zurück zur letzten Seite",
+				"es": "Regrese a la diapositiva anterior"
+			},
+			"btnNext": {
+				"en": "Proceed to the next slide",
+				"de": "Weiter zur nächsten Seite",
+				"es": "Proceda a la siguiente diapositiva"
+			}
+		},
+		"buttons": {
+			"btnNextLabel": {
+				"en": "Next",
+				"de": "Vorwärts",
+				"es": "Siguiente"
+			},
+			"btnPreviousLabel": {
+				"en": "Previous",
+				"de": "Zurück",
+				"es": "Anterior"
+			},
+			"btnConfirm": {
+				"en": "OK",
+				"de": "OK",
+				"es": "OK"
+			},
+			"btnCancel": {
+				"en": "Cancel",
+				"de": "Abbrechen",
+				"es": "Cerrar"
+			},
+			"btnYes": {
+				"en": "Yes",
+				"de": "Ja",
+				"es": "Sí"
+			},
+			"btnNo": {
+				"en": "No",
+				"de": "Nein",
+				"es": "No"
+			},
+			"btnProceed": {
+				"en": "Next",
+				"de": "Weiter",
+				"es": "Siguiente"
+			},
+			"btnLeaveExcursion": {
+				"en": "Leave excursion",
+				"de": "Exkurs verlassen",
+				"es": "Salir de excursión"
+			},
+			"btnClose": {
+				"en": "Close",
+				"de": "Schließen",
+				"es": "Cerca"
+			}
+		},
+		"speakertext": {
+			"headline": {
+				"en": "Spoken text",
+				"de": "Gesprochener Text",
+				"es": "Texto hablado"
+			},
+			"notext": {
+				"en": "No spoken text available.",
+				"de": "Kein gesprochener Text vorhanden.",
+				"es": "No hay texto hablado disponible."
+			}
+		},
+		"imprint": {
+			"headline": {
+				"en": "Imprint",
+				"de": "Impressum",
+				"es": "Huella"
+			},
+			"btnClose": {
+				"en": "Close imprint",
+				"de": "Schließen",
+				"es": "Cerca"
+			},
+			"companyTitle": {
+				"en": "Company",
+				"de": "Unternehmen",
+				"es": "Empresa"
+			},
+			"companyDepartment": {
+				"en": "Department",
+				"de": "Abteilung",
+				"es": "Departamento"
+			},
+			"supervisor": {
+				"en": "Supervisor/Manager",
+				"de": "Verantwortlicher/Manager",
+				"es": "Supervisor / Gerente"
+			},
+			"storyboardAuthor": {
+				"en": "Storyboard author",
+				"de": "Drehbuchautor",
+				"es": "Autor del guion gráfico"
+			},
+			"contentOwner": {
+				"en": "Content owner(s)",
+				"de": "Eigentümer",
+				"es": "Propietario del contenido"
+			},
+			"publishDate": {
+				"en": "WBT publish date",
+				"de": "Datum der Veröffentlichung",
+				"es": "Fecha de publicación"
+			}
+		},
+		"help": {
+			"headline": {
+				"en": "Help",
+				"de": "Hilfe",
+				"es": "Ayuda"
+			},
+			"btnClose": {
+				"en": "Close help",
+				"de": "Schließen",
+				"es": "Cerca"
+			},
+			"navigationHeadline": {
+				"en": "Navigation",
+				"de": "Navigation",
+				"es": "Navegación"
+			},
+			"menuHeadline": {
+				"en": "Menu",
+				"de": "Menü",
+				"es": "Menú"
+			},
+			"functionsHeadline": {
+				"en": "Functions",
+				"de": "Funktionen",
+				"es": "Funciones"
+			},
+			"miscHeadline": {
+				"en": "Miscellaneous",
+				"de": "Sonstiges",
+				"es": "Diverso"
+			},
+			"navigationContent1": {
+				"en": "With the <b>Previous</b> and <b>Next</b> buttons you can navigate through the e-learning step-by-step.",
+				"de": "Mit den Schaltflächen <b>Zurück</b> und <b>Vorwärts</b> können Sie Schritt für Schritt durch das Lernprogramm navigieren.",
+				"es": "Con los botones <b>Anterior</b> y <b>Siguiente</b>, puede navegar por el aprendizaje electrónico paso a paso."
+			},
+			"navigationContent2": {
+				"en": "A flashing <b>Next</b> button indicates that no further action is to be expected on the current page and that you may proceed to the next page.",
+				"de": "Blinkt die Schaltfläche <b>Vorwärts</b>, so ist auf der aktuellen Seite keine weitere Aktion mehr zu erwarten. Sie können mit der nächsten Seite fortfahren.",
+				"es": "Un botón parpadeante <b>Siguiente</b> indica que no se deben esperar más acciones en la página actual y que puede pasar a la página siguiente."
+			},
+			"menuContent": {
+				"en": "From the menu you can start individual chapters directly.",
+				"de": "Über das Menü können Sie die einzelnen Kapitel direkt anspringen.",
+				"es": "Desde el menú, puede comenzar capítulos individuales directamente."
+			},
+			"functionsAudio": {
+				"en": "Clicking the audio button toggles the sound on or off.",
+				"de": "Mit einem Klick auf das Audio Symbol, wird der Ton ein- oder ausgeschaltet.",
+				"es": "Al hacer clic en el botón de audio se activa o desactiva el sonido."
+			},
+			"functionsSpeakertext": {
+				"en": "Click on this button to show or hide the spoken text in a movable and resizable window.",
+				"de": "Klicken Sie auf diese Schaltfläche, um den Sprechertext in einem beweglichen und skalierbaren Fenster ein- oder auszublenden.",
+				"es": "Haga clic en este botón para mostrar u ocultar el texto hablado en una ventana movible y de tamaño variable."
+			},
+			"functionsPrint": {
+				"en": "Click here to start a printing job of the actual screen.",
+				"de": "Klicken Sie auf dieses Symbol, um die aktuelle Seite zu drucken.",
+				"es": "Haga clic aquí para comenzar un trabajo de impresión de la pantalla actual."
+			},
+			"functionsGlossary": {
+				"en": "Clicking this button opens the glossary.",
+				"de": "Mit einem Klick auf diese Schaltfläche öffnen Sie das Glossar.",
+				"es": "Al hacer clic en este botón se abre el glosario."
+			},
+			"functionsImprint": {
+				"en": "Should you be interested in some vendor information about this e-learning module, just press the Info button.",
+				"de": "Möchten Sie noch weitere Informationen zu diesem Lernprogramm einsehen, klicken Sie einfach auf das Info Symbol.",
+				"es": "Si está interesado en la información de algún proveedor sobre este módulo de aprendizaje electrónico, simplemente presione el botón Información."
+			},
+			"functionsHelp": {
+				"en": "The help button.",
+				"de": "Das Hilfe Symbol.",
+				"es": "El botón de ayuda."
+			},
+			"miscContent": {
+				"en": "<p style=\"margin-bottom:15px\">The progress bar in the upper right shows you how much of the e-learning is already completed.</p> <h4>Note for iPad users:</h4> <p>Please ensure that the <b>Mute</b> function on your iPad is turned off. Otherwise you may encounter problems with the audio playback in this e-learning module<br><br>On the iPad Pro, iPad Air 2, or iPad mini 4, you will find the <b>Mute</b> function in the <b>Control Center</b>. You can access the <b>Control Center</b> by sliding a finger from the very bottom of the screen up towards the top.</p><p style=\"margin-bottom:4px\">On older iPads, you can set the <b>Side Switch</b> to mute certain sounds:</p><ol><li>Tap <b>Settings</b> > <b>General.</b></li><li>Under <b>Use Side Switch To</b>, select <b>Mute</b>.</li><li>Toggle the <b>Side Switch</b> to the <b>Off</b> state.</li></ol>",
+				"de": "<p style=\"margin-bottom:15px\">Die Fortschrittsanzeige in der oberen rechten Ecke gibt an, wie viel Prozent des Lernprogramms Sie bereits abgeschlossen haben.</p> <h4>Hinweis für iPad Nutzer:</h4> <p>Bitte stellen Sie sicher, dass die <b>Stummschaltung</b> an Ihrem iPad ausgeschaltet ist. Andernfalls können Probleme beim Abspielen des Tons auftreten.<br><br>Für das iPad Pro, iPad Air 2 oder das iPad mini 4 finden Sie die <b>Stummschaltung</b> über das <b>Kontrollzentrum</b>. Rufen Sie das <b>Kontrollzentrum</b> auf, indem Sie mit dem Finger von unten nach oben über den Bildschirm streichen.</p><p style=\"margin-bottom:4px\">Bei älteren iPads können Sie die Stummschaltung über den <b>Seitenschalter</b> steuern:</p><ol><li>Tippen Sie auf <b>Einstellungen</b> > <b>Allgemein.</b></li><li>Unter <b>Seitenschalter</b> wählen Sie <b>Ton aus</b>.</li><li>Kippen Sie den <b>Seitenschalter</b> in den <b>Sperrzustand</b>.</li></ol>",
+				"es": "<p style =\"margin-bottom:15px\"> La barra de progreso en la esquina superior derecha le muestra cuánto del e-learning ya está completado.</p> <h4>Nota para los usuarios de iPad:</h4> <p>Asegúrese de que la función <b>Silenciar</b> en su iPad esté apagada. De lo contrario, puede encontrar problemas con la reproducción de audio en este módulo de e-learning.<br>En el iPad Pro, iPad Air 2 o iPad mini 4, encontrará la función <b> Silenciar </b>en el <b>Centro de control</b>. Puede acceder al <b>Centro de control </b>deslizando un dedo desde la parte inferior de la pantalla hacia arriba. </P><p style =\"margin-bottom:4px\"> En iPads anteriores , puede configurar el <b>Interruptor lateral </b>para silenciar ciertos sonidos:</p><ol><li>Pulse <b>Configuración</b>> <b>General.</b></li><li>En <b>Utilizar interruptor lateral a</b>, seleccione <b>Silenciar</b>.</li><li>Conmute el <b>Interruptor lateral</b> al <b>Apagado</b> estado.</Li></ol>"
+			}
+		},
+		"glossary": {
+			"headline": {
+				"en": "Glossary",
+				"de": "Glossar",
+				"es": "Glosario"
+			},
+			"btnClose": {
+				"en": "Close glossary",
+				"de": "Schließen",
+				"es": "Cerca"
+			},
+			"more": {
+				"en": "Show more",
+				"de": "Mehr anzeigen",
+				"es": "Mostrar más"
+			}
+		},
+		"excursions": {
+			"excursions": {
+				"en": "Excursions",
+				"de": "Exkursionen",
+				"es": "Excursiones"
+			}
+		},
+		"tasks": {
+			"evaluate": {
+				"en": "Evaluate",
+				"de": "Auswerten",
+				"es": "Evaluar"
+			},
+			"evaluateDragAndDrop": {
+				"en": "Check my choices",
+				"de": "Auswerten",
+				"es": "Verifique mis elecciones"
+			},
+			"retry": {
+				"en": "Try again",
+				"de": "Erneut versuchen",
+				"es": "Inténtalo de nuevo"
+			},
+			"solution": {
+				"en": "Solution",
+				"de": "Musterlösung",
+				"es": "Solución"
+			},
+			"mySolution": {
+				"en": "Your answer",
+				"de": "Ihre Lösung",
+				"es": "Tu respuesta"
+			},
+			"titleFeedbackCorrect": {
+				"en": "Correct!",
+				"de": "Richtig!",
+				"es": "¡Correcto!"
+			},
+			"titleFeedbackWrong": {
+				"en": "Sorry!",
+				"de": "Leider falsch",
+				"es": "Desafortunadamente es falso"
+			},
+			"titleFeedbackNeutral": {
+				"en": "Neutral",
+				"de": "Neutral",
+				"es": "Neutral"
+			},
+			"buttonFeedbackCorrect": {
+				"en": "OK",
+				"de": "OK",
+				"es": "OK"
+			},
+			"buttonFeedbackWrongRepeat": {
+				"en": "Try again",
+				"de": "Erneut versuchen",
+				"es": "Inténtalo de nuevo"
+			},
+			"buttonFeedbackWrong": {
+				"en": "OK",
+				"de": "OK",
+				"es": "OK"
+			}
+		}
+	}
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title></title>
+
+	<link href="../../css/bootstrap.css" rel="stylesheet">
+	<link href="../../css/jquery-ui.min.css" rel="stylesheet">
+	<link href="../../css/video.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<!-- Video container -->
+	<div id="video-container" unselectable="on" class="disable-selection">
+		<video id="video" class="center-block disable-selection" width="650" height="500" style="display:none;" poster="../../img/white.jpg"></video>
+	</div>
+
+	<!-- Text container -->
+	<div id="speakertext" class="auto" style="display:none">
+		<!-- JS -->
+	</div>
+
+	<!-- JS libraries -->
+	<script src="../../js/jquery.min.js"></script>
+	<script src="../../js/bootstrap.min.js"></script>
+	<script src="../preload.js"></script>
+
+	<!-- Standard Page Template -->
+	<script>
+
+		loadMedia({
+			video: {
+				path:'../../'+window.parent.contentPath+window.parent.getCurrentPage().path + '/video.mp4',
+				autostart:true
+			},
+			settings: {
+				speakertext:true
+			},
+		});
+
+	</script>
+
+</body>
+</html>

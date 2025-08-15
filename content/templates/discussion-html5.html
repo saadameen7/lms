@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title></title>
+
+	<link href="../../css/bootstrap.css" rel="stylesheet">
+	<link href="../../css/interactive.css" rel="stylesheet">
+	<link href="../../content/templates/discussion-html5.css" rel="stylesheet">
+	
+</head>
+
+<body>
+	
+	<div id="content" class="container-fluid add-height" style="display:none">
+		<div id="headline"></div>
+
+		<!-- Discussion Buttons -->
+		<div class="discussionEntries" style="display:none"></div>
+		
+	</div>
+	
+	<!-- JS libraries -->
+	<script src="../../js/jquery.min.js"></script>
+	<script src="../../js/bootstrap.min.js"></script>
+	<!-- Preload JS -->
+	<script src="../../js/preloadjs.min.js"></script>
+	<script src="../../content/preload.js"></script>
+	<!-- Interaction JS -->
+	<script src="../../content/templates/interactions.js"></script>
+	<!-- Choice JS -->
+	<script src="../../content/templates/discussion-html5.js"></script>
+		
+	<script>
+		
+		togglePlayPause(false);
+		
+		if(window.parent.getCurrentPage().settings.speaker) {
+			loadMedia({
+				images: [
+					{ id:"task-mouse", path:"../images/"+window.parent.interactionIcon }
+				],
+				audio: [
+					{ id:"speaker", path:"speaker.mp3" }
+				],
+				settings: {
+					speakerAudioAutostart:false,
+					speakertext:false
+				},
+				action: function() {
+					initDiscussionPage();
+					$('#content').fadeIn(800);
+				}
+			});
+		} else {
+			loadMedia({
+				images: [
+					{ id:"task-mouse", path:"../images/"+window.parent.interactionIcon }
+				],
+				settings: {
+					speakertext:false
+				},
+				action: function() {
+					initDiscussionPage();
+					$('#content').fadeIn(800);
+				}
+			});
+		}
+
+		
+	</script>
+		
+	
+</body>
+</html>
