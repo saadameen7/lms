@@ -1,0 +1,65 @@
+/* ######################### */
+/* DEHN                      */
+/* ######################### */
+
+#wbt-title h3 {
+	color:#334A53;
+	font-family: 'zi-default', sans-serif;
+	font-size:18px;
+	font-weight:normal;
+	margin:0 !important;
+	padding:0 !important;
+
+}
+
+h4 {
+	font-family: 'zi-default', Arial, sans-serif;
+}
+
+.jsPanel-headerbar {
+	background-color:#F5F5F5;
+}
+
+.jsPanel-titlebar h3 {
+	font-family: 'zi-default', Arial, sans-serif;
+	font-variant:normal;
+}
+
+.progress {
+	background-color:#DEE4E8;
+}
+
+.progress-bar {
+	background-color:#808080;
+}
+
+#navbar-progress{
+    background-color:#808080;
+}
+
+@-webkit-keyframes pulseAnimation {
+	from { -webkit-box-shadow: none; }
+	50% { -webkit-box-shadow: 0 0 10px 5px rgba(208, 39, 30, 0.7);}
+	to { -webkit-box-shadow: none; }
+}
+
+@-moz-keyframes pulseAnimation {
+	from { -moz-box-shadow: none; }
+	50% { -moz-box-shadow: 0 0 10px 5px rgba(208, 39, 30, 0.7);}
+	to { -moz-box-shadow: none; }
+}
+
+@keyframes pulseAnimation {
+	from { box-shadow: none; }
+	50% { box-shadow: 0 0 10px 5px rgba(208, 39, 30, 0.7);}
+	to { box-shadow: none; }
+}
+
+#wbt-title {
+	left:124px;
+	top:8px;
+}
+
+.glossary-link {
+	color: #E3000A !important;
+}

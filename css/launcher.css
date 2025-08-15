@@ -1,0 +1,151 @@
+html { height:100%; margin:0; padding:0;}
+
+body {
+	height:100%;
+    background-color:white;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    line-height: 18px !important;
+    margin:0; padding:0;
+	color:#333333;
+}
+
+h1 {
+    font-family: Arial;
+	font-size:18px;
+    font-weight:bold;
+ 	color:#FFFFFF;
+	padding:0;
+    margin:0;
+}
+
+h2 {
+	font-family: Arial;
+    font-size:18px;
+	font-weight:lighter;
+	color:#999999;
+	margin:20px 0 18px 0;
+	padding:0;
+}
+
+h3 {
+	font-family: Arial,Helvetica,sans-serif;
+    font-size:16px;
+	font-weight: bold;
+	color:#333333;
+	margin:20px 0 5px 0;
+	padding:0;
+}
+
+a {
+	color:#990000;
+}
+
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+#header {
+    background-color:#FFFFFF;
+    height:80px;
+    min-width:640px;
+    margin:0;
+    padding:0;
+}
+
+#header .leftPart {
+    width:638px;
+    height:72px;
+    float:left;
+}
+
+#header .leftPart img {
+    margin-left:44px;
+}
+
+#header .verticalLine {
+    background-color:white;
+    width:2px;
+    height:72px;
+    float:left;
+}
+
+#header .rightPart {
+	position:fixed;
+	right:50px;
+	top:36px;
+}
+
+@media screen and (max-width: 460px) {
+	#header .rightPart {
+		position:fixed;
+		right:10px;
+		top:36px;
+	}
+}
+
+
+
+#header .rightPart h1 {
+    padding:0;
+    margin:0;
+    font-family:Arial;
+    color:#666666;
+    font-weight:bold;
+    font-size:18px;
+}
+
+#breadcrumb {
+    float:left;
+    width:100%;
+}
+
+#breadcrumb .whiteHorizontalLine {
+    background-color:white;
+    height:1px;
+}
+
+#breadcrumb .breadcrumbArea {
+    background-color:#999999;
+    height:20px;
+}
+
+#content {
+	width:75%;
+	float:left;
+    margin:20px 100px 40px 44px;
+	height:300px;
+}
+
+#content h2 {
+    font-size:16px;
+	font-weight:bold;
+}
+
+#redirect {
+	float:left;
+	margin:10px 0 0 20px;
+}
+
+#footer {
+	color:#666666;
+	/*clear:left;
+	padding-top:120px;
+	padding-left:44px;
+	*/
+	background: white;
+	position: absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	padding: 0 0 12px 44px;
+}
+
+.url {
+	font-family:Courier;
+	color:#666666;
+}
+
